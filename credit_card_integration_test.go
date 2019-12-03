@@ -10,7 +10,7 @@ import (
 
 	"time"
 
-	"github.com/braintree-go/braintree-go/testhelpers"
+	"github.com/dietdoctor/braintree-go/testhelpers"
 )
 
 func TestCreditCard(t *testing.T) {
