@@ -73,6 +73,7 @@ type CustomerRequest struct {
 	CreditCard                *CreditCard               `xml:"credit-card,omitempty"`
 	PaymentMethodNonce        string                    `xml:"payment-method-nonce,omitempty"`
 	DefaultPaymentMethodToken string                    `xml:"default_payment_method_token"`
+	DeviceData                string                    `xml:"device-data,omitempty"`
 }
 
 type CustomerSearchResult struct {
